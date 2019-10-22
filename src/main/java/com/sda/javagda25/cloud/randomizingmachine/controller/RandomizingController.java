@@ -8,10 +8,10 @@ import java.util.Random;
 
 @RestController
 public class RandomizingController {
-    @Value("${random.words")
+    @Value("${random.words}")
     private String[] words;
 
-    @Value("${random.numbers")
+    @Value("${random.numbers}")
     private String[] numbers;
 
 

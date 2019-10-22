@@ -3,6 +3,6 @@ spring:
     name: randomizing-machine
   cloud:
     config:
-      uri: http://localhost:8802
+      uri: http://localhost:8002
 server:
   port: 8060
